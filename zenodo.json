@@ -1,0 +1,51 @@
+{
+  "title": "Adaptive Trust Chain (ATC): Executable Specification and Reference Smart Contract",
+  "description": "Open-source executable specification for the Adaptive Trust Chain (ATC) framework, comprising: (1) WeldComplianceASC.sol — Solidity 0.8.20 Adaptive Smart Contract implementing Algorithm 1 (checkCompliance with multi-signature governed threshold updates); (2) Prototype.py — Python/NumPy ASI-PLC Monte Carlo simulation implementing Algorithm 2, reproducing all results in Section 7 of the companion paper (mean 274.0 ms, P95 320.0 ms, 486.2 ms boundary case, seed=2025); (3) Prototype_app.py — interactive Streamlit UI for exploratory analysis. This is an executable specification and design-level plausibility check, not hardware-in-the-loop validation. Latency values are drawn from assumed distributions, not measured on physical equipment. See companion paper for full evidentiary status.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "weld certification",
+    "digital product passport",
+    "green hydrogen",
+    "hydrogen embrittlement",
+    "Programmable Logic Controller",
+    "smart contract",
+    "Solidity",
+    "design science research",
+    "Hyperledger Besu",
+    "QBFT",
+    "OPC-UA",
+    "safety interlock"
+  ],
+  "creators": [
+    {
+      "name": "Ashraf, Sk. Riad Bin",
+      "affiliation": "Chair of Transport Systems and Logistics, University of Duisburg-Essen, Germany",
+      "orcid": "0000-0002-8995-4390"
+    },
+    {
+      "name": "Rahman, Hasibur",
+      "affiliation": "Department of Industrial and Production Engineering, Islamic University of Technology, Bangladesh"
+    },
+    {
+      "name": "Noche, Bernd",
+      "affiliation": "Chair of Transport Systems and Logistics, University of Duisburg-Essen, Germany"
+    },
+    {
+      "name": "Gürpinar, Tan",
+      "affiliation": "School of Business, Quinnipiac University, USA"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.3389/fbloc.2026.XXXXXXX",
+      "resource_type": "publication-article"
+    }
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "notes": "This release (v1.0.0) reproduces the exact quantitative results reported in Section 7 of the companion paper: mean valid latency 274.0 ms, P95 320.0 ms, timeout boundary case 486.2 ms, zero false positives (seed=2025, n=200). The Solidity contract has not been deployed, formally verified, or audited; the Python simulation uses assumed latency distributions, not physical measurements."
+}
