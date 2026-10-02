@@ -143,7 +143,7 @@ class ASI_PLC:
 
 
 class OracleGateway:
-    MEAN_LATENCY_MS = 275.2
+    MEAN_LATENCY_MS = 274.6
     STD_LATENCY_MS = 25.0
     TIMEOUT_MEAN_MS = 514.6
     TIMEOUT_STD_MS = 20.0
